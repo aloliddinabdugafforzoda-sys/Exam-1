@@ -207,7 +207,6 @@
  }
  .sec4{
      width: 80%;
-     height: ;
      margin: auto;
      margin-top: 200px;
      display: flex;
@@ -284,7 +283,33 @@
     bottom:-110px ;
     left: 170px;
 }
+.sec5{
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+.divpek{
+    width: 100%;
+    margin: auto; 
+    display: flex;   
+    margin-top: 50px;  
+    flex-wrap: wrap;
+}
+.pek{
+    width: 196px;
+    height: 12  0px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #D9D9D9;
+}
 @media (max-width:510px) {
+    .divpek{
+        flex-wrap: nowrap;
+        overflow: auto;
+        margin-left: 0px;
+    }
     .elps79{
         left: -20px;
         top: -35px;
@@ -315,9 +340,9 @@
         top: -70px;
     }
     .im3{    
-        width: 60px;
-        height: 60px;
-        left: 330px;
+        width: 55px;
+        height: 55px;
+        left: 325px;
         top: 120px;
     }
     .im4{    
