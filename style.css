@@ -205,7 +205,136 @@
     width: 80%;
     margin-top: 10px;
  }
+ .sec4{
+     width: 80%;
+     height: ;
+     margin: auto;
+     margin-top: 200px;
+     display: flex;
+     gap: 200px;
+ }
+.pWhy{
+    font-size: 45px;
+    font-weight: 600;
+    color: #3D3D3D;
+    margin-top: 20px;
+}
+.sec4part1{
+    width: 50%;
+    position: relative;
+    
+}
+.pWant{
+    font-size: 20px;
+    font-weight: 400;
+    color: #3D3D3D;
+    width: 75%;
+    margin-top: 30px;
+}
+.elps{
+    
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #60C880;
+    border-radius: 50%;
+}
+.sec4part2{
+    width: 50%;
+    position: relative;
+
+}
+.pwe{
+    font-size: 18px;
+    width: 65%;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+.elps79{
+    position: absolute;
+    top:-70px ;
+    left: -80px;
+}
+.im0{
+    position: absolute;
+    top:140px ;
+    left: -140px;
+}
+.im1{
+    position: absolute;
+    top:150px ;
+    left: -130px;
+}
+.im2{
+    position: absolute;
+    top:-110px ;
+    left: 130px;
+}
+.im3{
+    position: absolute;
+    top:150px ;
+    left: 420px;
+}
+.im4{
+    position: absolute;
+    bottom:-110px ;
+    left: 170px;
+}
 @media (max-width:510px) {
+    .elps79{
+        left: -20px;
+        top: -35px;
+        width: 380px;
+    }
+    .elps{
+       width: 300px;
+       height: 300px;
+       margin: auto;
+    }
+    .im0{   
+        left: -40px;
+        width: 60px;
+        height: 60px;
+        top: 120px;
+    }
+
+    .im1{ 
+        left: -40px;
+        width: 60px;
+        height: 60px;
+        top: 120px;
+    }
+    
+    .im2{    
+        width: 60px;
+        height: 60px;
+        top: -70px;
+    }
+    .im3{    
+        width: 60px;
+        height: 60px;
+        left: 330px;
+        top: 120px;
+    }
+    .im4{    
+        width: 60px;
+        height: 60px;
+        top: 320px;
+        left: 160px;
+    }
+    .sec4part2{
+        width: 100%;
+    }
+    .sec4part1{
+        width: 100%;
+    }
+     .sec4{
+        flex-direction: column;
+     }
      .analiz01{
         width: 95%;
         height: 140px;
