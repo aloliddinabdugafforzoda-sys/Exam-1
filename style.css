@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.divbackgroundimage{
+    width: 100%;
+    height: 730px;
+    background-image: url(./images/image\ 7.png);
+    background-size: cover;
+}
+.backgroundcolor{
+    width: 100%;
+    height: 730px;
+    background: linear-gradient(#1B1E31E5,#1B1E3100);
+}
+.divheropart1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.divheropart2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.pUslugi{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.divhero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    gap: 50x;
+}
+.pHelp{
+    font-size: 70px;
+    font-weight: 500;
+    color: #FFFFFF; 
+    width: 80%;
+}
+.pPervimi{
+    color: #60C880;
+}
+.divHelp{
+    width: 40%;
+    height: 45%;
+
+}
+.pInter{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 70%;
+    margin-top: 10px;
+}
+.btnOtprav{
+    width: 259px;
+    height: 50px;
+    background-color: #60C880;
+    color: #FFFFFF;
+    border-radius: 30px; 
+    font-size: 14px;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.offcomp{
+    display: none;
+}
+.divicon37{
+    width: 10%;
+    height: 65%;
+    display: flex;
+    align-items: end;
+  
+}
+.divhead2x{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    margin-top: 100px;
+}
+@media (max-width:510px) {
+    .img37{
+        width: 100px;
+        margin-left: 55px;
+    }
+    .divicon37{
+        height:20% ;
+        width:5%;
+    }
+    .pInter{
+        width: 80%;
+        font-size: 20px;
+
+    }
+    .divHelp{
+        width: 90%;
+    
+    }
+    .divhead2x{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 0px;
+     
+        
+    } 
+    .pHelp{
+        font-size: 40px;
+        width: 90%;
+    }
+    .divbackgroundimage{
+        background-image: url(./images/image\ 7\ \(1\).png);
+
+    }
+    .offphone{
+        display: none;
+    }
+    .divherophone{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding-top: 15px;
+    }
+
+    
+}
